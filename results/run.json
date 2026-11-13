@@ -1,0 +1,30 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "driver": "610.88",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "diffusers": "0.43.0",
+  "idle_w": 108.33692372397053,
+  "idle_seconds": 30.00137799999993,
+  "idle_telemetry": {
+    "sm_mhz": 1770,
+    "mem_mhz": 9451,
+    "temp_c": 37,
+    "power_limit_w": 370.0,
+    "clock_reasons": "0x1"
+  },
+  "args": {
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "warmup": 10,
+    "images": 200,
+    "blocks": 15,
+    "block_seconds": 3.0,
+    "idle_seconds": 30.0,
+    "settle_seconds": 15.0,
+    "out": "results"
+  }
+}
